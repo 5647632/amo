@@ -1,0 +1,205 @@
+Array
+(
+    [_page] => 1
+    [_links] => Array
+        (
+            [self] => Array
+                (
+                    [href] => https://kaskadn.amocrm.ru/api/v4/events?order%5Bupdated_at%5D=desc&filter%5Bentity%5D=contact&filter%5Bentity_id%5D%5B0%5D=47310659&page=1&limit=50
+                )
+
+            [next] => Array
+                (
+                    [href] => https://kaskadn.amocrm.ru/api/v4/events?order%5Bupdated_at%5D=desc&filter%5Bentity%5D=contact&filter%5Bentity_id%5D%5B0%5D=47310659&page=2&limit=50
+                )
+
+        )
+
+    [_embedded] => Array
+        (
+            [events] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 01fj9zam8aesmfy84m8fddtahv
+                            [type] => entity_linked
+                            [entity_id] => 47310659
+                            [entity_type] => contact
+                            [created_by] => 2532927
+                            [created_at] => 18-10-2021 17:40
+                            [value_after] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [link] => Array
+                                                (
+                                                    [entity] => Array
+                                                        (
+                                                            [type] => lead
+                                                            [id] => 29966719
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                            [value_before] => Array
+                                (
+                                )
+
+                            [account_id] => 9376437
+                            [_links] => Array
+                                (
+                                    [self] => Array
+                                        (
+                                            [href] => https://kaskadn.amocrm.ru/api/v4/events/01fj9zam8aesmfy84m8fddtahv
+                                        )
+
+                                )
+
+                            [_embedded] => Array
+                                (
+                                    [entity] => Array
+                                        (
+                                            [id] => 47310659
+                                            [is_deleted] => 
+                                            [is_unsorted] => 
+                                            [_links] => Array
+                                                (
+                                                    [self] => Array
+                                                        (
+                                                            [href] => https://kaskadn.amocrm.ru/api/v4/contacts/47310659
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 01fj9zam7n8fnqts68xhqw5j3h
+                            [type] => custom_field_513874_value_changed
+                            [entity_id] => 47310659
+                            [entity_type] => contact
+                            [created_by] => 2532927
+                            [created_at] => 18-10-2021 17:40
+                            [value_after] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [custom_field_value] => Array
+                                                (
+                                                    [field_id] => 513874
+                                                    [field_type] => 8
+                                                    [enum_id] => 1211212
+                                                    [text] => 89652142623
+                                                )
+
+                                        )
+
+                                )
+
+                            [value_before] => Array
+                                (
+                                )
+
+                            [account_id] => 9376437
+                            [_links] => Array
+                                (
+                                    [self] => Array
+                                        (
+                                            [href] => https://kaskadn.amocrm.ru/api/v4/events/01fj9zam7n8fnqts68xhqw5j3h
+                                        )
+
+                                )
+
+                            [_embedded] => Array
+                                (
+                                    [entity] => Array
+                                        (
+                                            [id] => 47310659
+                                            [is_deleted] => 
+                                            [is_unsorted] => 
+                                            [_links] => Array
+                                                (
+                                                    [self] => Array
+                                                        (
+                                                            [href] => https://kaskadn.amocrm.ru/api/v4/contacts/47310659
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [id] => 01fj9zam76jtch57fwv07aze8q
+                            [type] => contact_added
+                            [entity_id] => 47310659
+                            [entity_type] => contact
+                            [created_by] => 2532927
+                            [created_at] => 18-10-2021 17:40
+                            [value_after] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [note] => Array
+                                                (
+                                                    [id] => 355979581
+                                                )
+
+                                        )
+
+                                )
+
+                            [value_before] => Array
+                                (
+                                )
+
+                            [account_id] => 9376437
+                            [_links] => Array
+                                (
+                                    [self] => Array
+                                        (
+                                            [href] => https://kaskadn.amocrm.ru/api/v4/events/01fj9zam76jtch57fwv07aze8q
+                                        )
+
+                                )
+
+                            [_embedded] => Array
+                                (
+                                    [entity] => Array
+                                        (
+                                            [id] => 47310659
+                                            [is_deleted] => 
+                                            [is_unsorted] => 
+                                            [_links] => Array
+                                                (
+                                                    [self] => Array
+                                                        (
+                                                            [href] => https://kaskadn.amocrm.ru/api/v4/contacts/47310659
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
